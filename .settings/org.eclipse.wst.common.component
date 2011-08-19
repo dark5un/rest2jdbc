@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="rest2jdbc">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="org.restlet.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/org.restlet.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.restlet.ext.servlet.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/org.restlet.ext.servlet.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-all-1.8.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/jackson-all-1.8.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.restlet.ext.jackson.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/org.restlet.ext.jackson.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.15-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/mysql-connector-java-5.1.15-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqlbuilder-2.0.7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/sqlbuilder-2.0.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common-util-1.0.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rest2jdbc/lib/common-util-1.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="rest2jdbc"/>
+        <property name="java-output-path" value="/rest2jdbc/build/classes"/>
+    </wb-module>
+</project-modules>
