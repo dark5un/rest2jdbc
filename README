@@ -1,0 +1,9 @@
+This is a restlet to jdbc implementation following the rules of couchdb rest interface with minor lectical changes.
+
+It is still in alpha phase but I will try to keep up.
+
+This is my first attempt on working with restlet framework.
+
+Thank you for your patience.
+
+Panos
